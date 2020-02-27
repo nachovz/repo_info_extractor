@@ -1,5 +1,3 @@
-USER root
-RUN apt-get update && apt-get install -y pkg-config python3-dev
 FROM python:3.7-slim AS build
 WORKDIR /app
 # Make sure we use the virtualenv:
